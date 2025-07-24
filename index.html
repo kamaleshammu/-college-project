@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Web Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-blue-700 text-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-xl font-bold">My College Project</h1>
+      <nav>
+        <ul class="flex space-x-6 font-medium">
+          <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+          <li><a href="#projects" class="hover:text-yellow-300">Projects</a></li>
+          <li><a href="#about" class="hover:text-yellow-300">About</a></li>
+          <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-24 px-6">
+    <h2 class="text-4xl font-bold mb-4">Welcome to My Web Project</h2>
+    <p class="text-lg mb-6">A creative and responsive design for college presentation</p>
+    <a href="#projects" class="bg-white text-blue-700 font-semibold px-6 py-2 rounded-full shadow hover:bg-gray-200">Explore Projects</a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-6 max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+        <p>This is a description of my first web project using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+        <p>A responsive portfolio layout created with Tailwind CSS and animations.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+        <p>This is a simple to-do list app with JavaScript and local storage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-lg leading-relaxed">Hi! I’m <strong>Kamalesh S</strong>, a passionate web developer currently pursuing my degree at <strong>S.A college of engineering</strong>. This website is part of my first year college presentation to showcase my web development skills.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <p class="mb-4">Email: <a href="mailto:yourname@example.com" class="text-blue-600 underline">kamalesh9094119888@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourname" class="text-blue-600 underline">linkedin.com/in/kamalesh</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-6">
+    <p>© 2025 Kamalesh S | College Web Project</p>
+  </footer>
+
+</body>
+</html>
